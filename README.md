@@ -1,6 +1,6 @@
 # US2000 1h OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-4_696_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-45_292_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full US2000 dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 1h OHLCV** for **Russell 2000** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **4,696** `1h` rows in the full archive
+- **Free evaluation sample** on GitHub (`1h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **45,292** `1h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1h` sample updated in sync
 
-> **Sample on GitHub** · `US2000_1h.csv` (4,390 rows, `2025-10-02` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **4,696** `1h` rows (~0.29 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-09-15` → `2026-07-02`.
+> **Sample on GitHub** · `US2000_1h.csv` (4,390 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **45,292** `1h` rows (~2.55 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2018-10-26` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/us2000-1h-ohlcv-index-his
 |---|--:|---|
 | Instrument | Russell 2000 · Stock index | Russell 2000 · Stock index |
 | Timeframes | `1h` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1h rows | 4,390 | **4,696** |
-| Size | 0.27 MB | ~0.29 MB |
-| Period | `2025-10-02` → `2026-07-02` | `2025-09-15` → `2026-07-02` |
+| 1h rows | 4,390 | **45,292** |
+| Size | 0.25 MB | ~2.55 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2018-10-26` → `2026-07-03` |
 | File | `US2000_1h.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`US2000_1h.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-10-02T22:00:00Z | 2459.305 | 2460.825 | 2457.665 | 2460.375 | 817.0 |
-| 2025-10-02T23:00:00Z | 2460.375 | 2461.825 | 2459.515 | 2461.665 | 803.0 |
-| 2025-10-03T00:00:00Z | 2461.665 | 2465.025 | 2460.115 | 2463.865 | 1929.0 |
-| 2025-10-03T01:00:00Z | 2463.865 | 2466.635 | 2462.675 | 2466.485 | 1964.0 |
-| 2025-10-03T02:00:00Z | 2466.485 | 2466.835 | 2463.865 | 2465.965 | 1338.0 |
+| 2025-10-03T16:00:00Z | 2496.18 | 2497.73 | 2494.62 | 2496.32 | 9967.0 |
+| 2025-10-03T17:00:00Z | 2496.32 | 2496.34 | 2473.62 | 2477.78 | 38497.0 |
+| 2025-10-03T18:00:00Z | 2477.78 | 2483.74 | 2471.32 | 2477.02 | 36365.0 |
+| 2025-10-03T19:00:00Z | 2477.02 | 2480.87 | 2475.88 | 2477.09 | 20213.0 |
+| 2025-10-03T20:00:00Z | 2477.09 | 2477.39 | 2472.94 | 2474.17 | 2190.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T17:00:00Z | 2986.43 | 2987.75 | 2972.13 | 2973.34 | 35885.0 |
-| 2026-07-02T18:00:00Z | 2973.34 | 2986.14 | 2972.08 | 2983.43 | 30646.0 |
-| 2026-07-02T19:00:00Z | 2983.43 | 2997.38 | 2970.73 | 2996.58 | 36047.0 |
-| 2026-07-02T20:00:00Z | 2996.58 | 2996.73 | 2988.43 | 2992.34 | 6899.0 |
+| 2026-07-03T12:00:00Z | 3003.8 | 3005.42 | 2999.45 | 3000.2 | 2827.0 |
+| 2026-07-03T13:00:00Z | 3000.2 | 3002.06 | 2998.0 | 3000.76 | 5552.0 |
+| 2026-07-03T14:00:00Z | 3000.76 | 3006.62 | 3000.0 | 3006.17 | 4512.0 |
+| 2026-07-03T15:00:00Z | 3006.17 | 3006.97 | 3003.6 | 3006.65 | 3360.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **US2000** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **4,696** rows at `1h`, plus all other timeframes in the same ZIP.
+The complete **US2000** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **45,292** rows at `1h`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full US2000 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · US2000 1h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · US2000 1h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
